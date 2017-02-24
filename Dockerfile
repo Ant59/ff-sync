@@ -14,4 +14,6 @@ EXPOSE 5000
 
 VOLUME ["/ff-sync"]
 
-CMD ["entrypoint.sh"]
+COPY entrypoint.sh /entrypoint.sh
+
+CMD ["/entrypoint.sh"]
