@@ -17,6 +17,7 @@ public_url = ${URL}
 sqluri = sqlite:////ff-sync/syncserver.db
 secret = ${SECRET}
 allow_new_users = false
+force_wsgi_environ = true
 EOF
 
 cd syncserver
