@@ -22,4 +22,4 @@ EOF
 cd syncserver
 
 # Run syncserver
-make build
+make server
